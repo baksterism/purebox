@@ -8,9 +8,9 @@ blockquote {
 }
 small {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 1.3;
     font-style: expanded;
     font-weight: 500;
-    color: rgb(200,200,200);
+    color: 	rgb(169,169,169);
 }
