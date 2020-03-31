@@ -6,9 +6,11 @@ blockquote {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
-small {
+
+small
+{
     display: inline-block;
-    font-size: 1rem;
+    font-size: 60%;
     line-height: 1;
     font-style: normal;
     font-weight: 400;
