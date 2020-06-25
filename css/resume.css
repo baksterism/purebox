@@ -1,0 +1,28 @@
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
+}
+
+blockquote {
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+small
+{
+    display: inline-block;
+    font-size: 55%;
+    line-height: 2em;
+    font-style: normal;
+    font-weight: 400;
+    color: 	rgba(0,0,0,0.7);
+}
+
+body {
+    color: #013994;
+    font-size: 14px;
+}
