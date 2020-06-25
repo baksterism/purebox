@@ -22,7 +22,6 @@ small
     color: 	rgba(0,0,0,0.7);
 }
 
-body {
-    color: #013994;
-    font-size: 14px;
+p {
+    font-size: 18px;
 }
