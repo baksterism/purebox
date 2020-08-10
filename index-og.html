@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DESCRIPTION GOES HERE">
-    <title>SITE TITLE</title>
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
@@ -21,12 +21,7 @@
         <!--[if gt IE 8]><!-->
             <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
         <!--<![endif]-->
-<style>
-.newspaper1 {
-  columns: 100px 2;
-}
 
-</style>
 </head>
 <body>
 
@@ -40,51 +35,43 @@
     <div id="menu">
         <div class="pure-menu">
 
-            <a class="pure-menu-heading" href="https://baksterism.github.io/purebox/">PureBox</a>
+            <a class="pure-menu-heading pure-menu-selected" href="https://baksterism.github.io/purebox/">PureBox</a>
 
             <ul class="pure-menu-list">
-<!-- STARTERS -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/starters.html" class="pure-menu-link">STARTERS</a></li>
+<!-- QUICK TOOLS -->
+                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/quick-tools.html" class="pure-menu-link">QUICK TOOLS</a></li>
 <!-- CLIPPINGS -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/clippings.html" class="pure-menu-link">Clippings</a></li>
 <!-- CHEAT SHEETS -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/cheat-sheets.html" class="pure-menu-link">Cheat Sheets</a></li>
-
 <!-- COLORS -->
                   <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/colors-main.html" class="pure-menu-link">Color</a></li>
-
+<!-- CONTENT -->
+                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/content.html" class="pure-menu-link">CONTENT</a></li>
 <!-- #INSTA-RATION -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/instagram.html" class="pure-menu-link">#Insta-ration</a></li>
 <!-- LISTS -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/lists.html" class="pure-menu-link">Lists +</a></li>
 <!-- RESUME -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/resume.html" class="pure-menu-link">Resume</a></li>
-<!-- ROWDY -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/rowdy.html" class="pure-menu-link">Rowdy</a></li>
 <!-- RSS -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/rss.html" class="pure-menu-link">RSS</a></li>
 <!-- SEO -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/seo.html" class="pure-menu-link">SEO</a></li>
 <!-- SEARCH -->
                 <li class="pure-menu-item"><a href="https://baksterism.github.io/purebox/search-engines.html" class="pure-menu-link">Search Engines</a></li>
-<!-- META SEARCH -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/search-engines#meta" class="pure-menu-link"> » Meta Search</a></li>
 <!-- SPORTS -->
                 <li class="pure-menu-item menu-item-divided">
                 <a href="https://baksterism.github.io/purebox/sports.html" class="pure-menu-link">Sports</a></li>
 <!-- TEST -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/test.html" class="pure-menu-link">Test</a></li>
-
-<!-- USEFUL -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/useful.html" class="pure-menu-link">Useful</a></li>
 <!-- USELESS -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/useless.html" class="pure-menu-link">Useless</a></li>
 <!-- WEB DESIGN -->
                 <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/web-design.html" class="pure-menu-link">Web Design</a></li>
-<!-- WRITING -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/writing.html" class="pure-menu-link">Writing</a></li>
-<!-- WROTE -->
-                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/wrote.html" class="pure-menu-link">Wrote</a></li>
+<!-- AROUND THE WEB -->
+                <li class="pure-menu-item menu-item-divided"><a href="https://baksterism.github.io/purebox/around-the-web.html" class="pure-menu-link">Around the Web</a></li>
+
 
             </ul>
         </div>
@@ -92,42 +79,40 @@
 
     <div id="main">
         <div class="header">
-            <h1><strong>WEB DESIGN</strong> RESOURCES</h1>
-            <h3>resources for designing the web</h3>
+            <h1>Page Title</h1>
+            <h2>A subtitle for your page goes here</h2>
         </div>
 
-
         <div class="content">
+            <h2 class="content-subhead">How to use this layout</h2>
+            <p>
+                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+            </p>
 
-            <h2 class="content-subhead">CONTENT <strong>SUB-HEADER</strong></h2>
+            <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
 
-        <div class="newspaper1">
-
-            <p><a href="https://www.instagram.com/explore/tags/creative/" alt="Explore creative tag on instagram" target="_blank">#creative</a></p>
-
-            <p><a href="https://www.instagram.com/explore/tags/designinspiration/" alt="Explore 'designinspiration' tag on instagram" target="_blank">#designinspiration</a></p>
-
-            <p><a href="https://www.instagram.com/explore/tags/adobe/" alt="Explore 'adobe' tag on instagram" target="_blank">#adobe</a></p>
-
-            <p><a href="https://www.instagram.com/thedesigntip/" alt="Explore 'thedesigntip' profile on instagram" target="_blank">@thedesigntip</a></p>
-
-            <p><a href="https://www.instagram.com/dribbble/" alt="Explore 'dribble' profile on instagram" target="_blank">@dribble</a></p>
-
-            <p><a href="https://www.instagram.com/behance/" alt="Explore 'behance' profile on instagram" target="_blank">@behance</a></p>
-
+            <div class="pure-g">
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
+                </div>
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
+                </div>
             </div>
-<hr>
 
-            <h2 class="content-subhead"><strong>SAMPLE</strong> TEXT</h2>
-
-            <p><a href="#" alt="describe it" target="_blank">Web usos union esseva il, con o parlar facite europa, major incorporate con tu. Publicate traducite non in, scientia unidirectional se non, via tu linguage methodicamente. Per populos publicate computator de, ma per debitas integre, texto titulo pan in! Abstracte initialmente uno al.</a></p>
-
-            <p><a href="#" alt="describe it" target="_blank"><small>essentialmente pan, le nos germano programma angloromanic.</small></a></p>
-
-<hr>
-
-            <p><a href="#" alt="describe it" target="_blank">#logodesigner<small> - essentialmente pan, le nos germano programma angloromanic.</small></a></p>
-
+            <h2 class="content-subhead">Try Resizing your Browser</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </div>
     </div>
 </div>
